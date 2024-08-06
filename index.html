@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="android-chrome-192x192.png" type="image/png">
+   
+    <title>Shamase Transportation</title>
+    </head>
+
+    <body>
+      <div class="nav-holder">
+    
+        <nav>
+      <div class="logo_holder">
+        <img src="shamaselogo.PNG" id="logo_image" height="100px" width="200px" alt="Shamase Transportation logo"/>
+      </div>
+      <h1>Shamase Transportation</h1>
+      
+      
+      <!---Nav list here-->
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+      </ul>
+
+      <a href="https://andile532.github.io/SHAMASE-APP2"><button id="get_started">Get Started</button></a>
+      <button id="nav_responsive" type="button" onclick="navResponse()"><h6><i class="bi bi-list"></i></h6></button>
+    </nav>
+  </div>
+
+  <div id="nav_holder">
+    <ul class="responsive">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+      <li><a href="services.html" class="nav-link">Services</a></li>
+      <button id="get_started">Get Started</button>
+    </ul>
+  </div>
+
+
+<!--Heo section content here-->
+
+<div class="hero_holder">
+  <h7>We offer exceptional transport service.</h7><br>
+  <h8>At a lowest possible cost.</h8><br>
+  <p class="explanation">Passenger transportation is 90% common.At <b>Shamase Transportation</b> we understand the value for your<br> money hence we ensure that our services aligns with your preferences.</p>
+ <a href="https://andile532.github.io/SHAMASE-APP2/"> <button type="button" id="hero_getStarted">Get Started</button></a>
+</div>
+
+<!--Third section content here-->
+<div class="secondSection_holder">
+
+  <div class="left_section">
+    <h9>About Us</h9>
+    <p class="explanation2">Shamase Transportation, based in Thokoza Katlehong, is your go-to partner for all transportation needs. Whether you're heading out on vacation, attending family gatherings, traditional ceremonies, or private trips, we've got you covered. Our experienced drivers ensure a safe, stylish, and happy journey, both within Gauteng and beyond. We prioritize your safety and comfort, always striving to provide reasonable prices for your travel needs.</p>
+    <a href="about.html"><button type="button" id="readMore">Read More</button></a>
+  </div>
+  <div class="right_section">
+    <img src="capture5.jpg" id="capture4"/>
+  </div>
+</div>
+
+<div class="thirdsection_holder">
+  <h10>What defines us?</h10>
+
+  <div class="boxes">
+  <div class="left_box">
+    <h11>Reliability</h11>
+    <p class="reliability">We offer a transport service that you can count on to meet your needs and expectations. 
+      We are a company that pride it self as keeping it's promises. We highly understandd that passenger trasportation is mainly about moving commuters to their desired locations at a right time, safely and in a professional manner.
+    </p>
+  </div>
+  <div class="middle_box">
+    <h11>Comfort</h11>
+    <p class="reliability2">Our vehicles are designed to ensure that your journey is smooth, enjoyable and theaputic.
+      We aim to ensure that your destination is memorable and every vehicle is suited for every occassion. 
+    </p>
+  </div>
+  <div class="right_box">
+    <h11>Unique</h11>
+    <p class="reliability3">What differentiate us from the rest of the competition is reasonable prices and out of this world transport services.
+      Our prices are reasonable and we are always open to give our clients a private transort experience with such low prices.
+    </p>
+  </div>
+  </div>
+</div>
+
+<div class="portfolio">
+  <h12>View Our Gallery.</h12>
+  <div class="first_three">
+    <div class="image1">
+      <img src="image1.jpg"class="capture1"/>
+    </div>
+    <div class="image2">
+      <img src="image2.jpg" class="capture2 capture1" />
+    </div>
+    <div class="image3">
+      <img src="image3.jpg" class="capture3 capture1">
+    </div>
+  </div>
+
+  <div class="second_three">
+    <div class="image4">
+      <img src="image4.jpg" class="capture1 capture1"/>
+    </div>
+    <div class="image5">
+      <img src="image5.jpg" class="capture2 capture1"/>
+    </div>
+    <div class="image6">
+     <image src="IMG-20240724-WA0010.jpg" class="capture3 capture1" />
+    </div>
+  </div>
+</div>
+
+
+  <div id="form-holder">
+    <h13>Get A Quote.</h13>
+    <p class="form_explanation">Please fill in all the sections below we will call you back!</p>
+    
+    <form id="quote" name="userForm" onsubmit="submitForm(event)">
+      <label for="name">Name:<input type="text" name="name" placeholder="Enter your name..." required/></label>
+      <label for="email">Email:<input type="email" name="email" placeholder="Enter your name..."/></label>
+      <label for="number">Number:<input type="number" name="number" placeholder="e.g 0700000000" required/></label>
+      <label for="date">Date:<input type="date" name="date" required/></label>
+      <label for="destination1">Destination1(From):<input type="text" name="from" placeholder="e.g Johannesburg CBD" required/></label>
+      <label for="destination2">Destination2(To):<input type="text" name="to" placeholder="e.g Boksburg" required/></label>
+      <textarea cols="8" rows="5" placeholder="Mesage..." name="message"></textarea><br>
+       <button type="submit" id="submit" >Submit</button>
+    </form>
+  </div>
+</div>
+
+<!---Footer content here-->
+
+<div class="footer-holder">
+  <footer>
+    <div class="logo_holder">
+      <img src="shamaselogo.PNG" id="logo_image" height="100px" width="200px" alt="Shamase Transportation logo"/>
+    </div>
+    <h30>Shamase Transportation</h30>
+  </footer>
+
+  <section class="nav-list">
+    <h31>Company</h31>
+
+    <ol>
+      <li id="footer_nav">Home</li>
+      <li id="footer_about">About</li>
+      <li id="footer_contact">Contact</li>
+      <li id="footer_service">Services</li>
+    </ol>
+  </section>
+
+  <section class="nav-list2">
+    <h32>Contact Us</h32>
+    <address class="location-icon"><i class="bi bi-geo-alt"></i> 314 Mashaba Street, Thokoza, Katlehong</address>
+    <p class="phone-icon"><i class="bi bi-telephone"></i> 0810211800</p>
+    <p class="email-icon"><i class="bi bi-envelope"></i> leratot190@gmail.com</p>
+  </section>
+
+  <section class="follow-us">
+    <h33>Follow Us</h33>
+    <div class="social-media">
+    <p class="facebook-icon"><i class="bi bi-facebook"></i></p>
+    <p class="whatsapp-icon"><i class="bi bi-whatsapp"></i></p>
+    <p class="twitter-icon"><i class="bi bi-twitter-x"></i></p>
+    </div>
+  </section>
+</div>
+      <!---Script file here-->
+      <script src="script.js"></script>
+    </body>
+</html>
+

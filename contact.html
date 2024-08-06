@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="android-chrome-192x192.png" type="image/png">
+    <title>Shamase Transportation</title>
+    </head>
+
+    <body>
+        <div class="nav-holder">
+            <nav>
+              
+              <div class="logo_holder">
+                <img src="shamaselogo.PNG" id="logo_image" height="100px" width="200px" alt="Shamase Transportation logo"/>
+              </div>
+              <h1>Shamase Transportation</h1>
+              
+        
+              <!---Nav list here-->
+              <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+              </ul>
+        
+          
+              <button id="nav_responsive" type="button" onclick="navResponse()"><h6><i class="bi bi-list"></i></h6></button>
+            </nav>
+          </div>
+        
+          <div id="nav_holder">
+            <ul class="responsive">
+              <li><a href="index.html" class="nav-link">Home</a></li>
+              <li><a href="services.html" class="nav-link">Services</a></li>
+              <li><a href="contact.html" class="nav-link">Contact</a></li>
+              <li><a href="about.html" class="nav-link">About</a></li>
+              <button id="get_started">Get Started</button>
+            </ul>
+          </div>
+          
+      <div class="contact-holder">
+       <div id="left_contact">
+        <h15>Let's talk.</h15>
+        <h16><span class="location"><i class="bi bi-geo-alt"></i></span>Address</h16>
+        <address>1223 Mashaba Street, Thokoza, Katlehong</address> 
+        <h17><i class="bi bi-telephone"></i>Call</h17>
+        <p class="number">0810211800</p>
+        <h17><i class="bi bi-envelope"></i>General Support</h17>
+        <p class="number">leratot190@gmail.com</p>
+      </div>
+      <!--Right contact box content here-->
+       <div id="right_contact">
+        <h18>Contact Us</h18>
+        <p class="contactForm_explanation">Please fill out all the fields below we'll get back to you!</p>
+       
+        <form name="userForm" id="contact-form" onsubmit="submitForm(event)">
+          <label for="name">Name:<input type="text" name="name" placeholder="Enter your name.." required/></label>
+          <label for="email">Email:<input type="email" name="email" placeholder="Enter your email.."></label>
+          <label for="number">Number:<input type="number" min="0" name="number" placeholder="e.g 0700000000" required></label>
+          <label for="message">Message:<br><textarea placeholder="Message.." rows="4" name="message"></textarea><br><br>
+          <button type="submit" id="contact-submit">Submit</button>
+        </form>
+      </div>
+      </div>
+      
+      <div class="footer-holder">
+        <footer>
+          <div class="logo_holder">
+            <img src="shamaselogo.PNG" id="logo_image" height="100px" width="200px" alt="Shamase Transportation logo"/>
+          </div>
+          <h30>Shamase Transportation</h30>
+        </footer>
+      
+        <section class="nav-list">
+          <h31>Company</h31>
+      
+          <ol>
+            <li id="footer_nav">Home</li>
+            <li id="footer_about">About</li>
+            <li id="footer_contact">Contact</li>
+            <li id="footer_service">Services</li>
+          </ol>
+        </section>
+      
+        <section class="nav-list2">
+          <h32>Contact Us</h32>
+          <address class="location-icon"><i class="bi bi-geo-alt"></i> 314 Mashaba Street, Thokoza, Katlehong</address>
+          <p class="phone-icon"><i class="bi bi-telephone"></i> 0810211800</p>
+          <p class="email-icon"><i class="bi bi-envelope"></i> leratot190@gmail.com</p>
+        </section>
+      
+        <section class="follow-us">
+          <h33>Follow Us</h33>
+          <div class="social-media">
+          <p class="facebook-icon"><i class="bi bi-facebook"></i></p>
+          <p class="whatsapp-icon"><i class="bi bi-whatsapp"></i></p>
+          <p class="twitter-icon"><i class="bi bi-twitter-x"></i></p>
+          </div>
+        </section>
+      </div>
+          <!--Script contents here-->
+<script src="script.js"></script>
+    </body>
+</html>
